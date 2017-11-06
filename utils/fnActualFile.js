@@ -18,10 +18,12 @@ function replaceStr(contentStr, replaceStrPairsObj){
     for(key in replaceStrPairsObj){
         if(replaceStrPairsObj.hasOwnProperty(key)){
             // replacedStr = replaceStr(contentStr, key, replaceStrPairsObj[key]);
-            while(contentStr.indexOf(key) !== -1){
+            // while(contentStr.indexOf(key) !== -1){
+                console.log(key);
+                console.log('above is the key in while block.');
                 console.log('If you can see this line , the while block replaceStr function was executed!');
                 contentStr = contentStr.replace(key, replaceStrPairsObj[key]);
-            }
+            // }
         }
     }
     return contentStr;

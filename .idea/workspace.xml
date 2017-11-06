@@ -1,7 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2293c99e-c375-4aff-a097-b4d2ebcfbee6" name="Default" comment="" />
+    <list default="true" id="2293c99e-c375-4aff-a097-b4d2ebcfbee6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/good/good.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/good/good.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/good/good.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/good/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/good/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello-hash/.stable/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello-hash/.stable/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello-hash/helloHash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello-hash/helloHash.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello-hash/helloHash.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/.stable/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/.stable/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/hello.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/hello.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/hello.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/maybe/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/maybe/maybe.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/maybe/maybe.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/maybe/maybe.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/maybe/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ni-hao/.stable/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ni-hao/.stable/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ni-hao/niHao.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ni-hao/niHao.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ni-hao/niHao.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/niHao/.stable/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/niHao/.stable/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/niHao/niHao.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/niHao/niHao.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/niHao/niHao.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/1x1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/base64.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/base64.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/base64.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/base64_utf8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/old/base64-1.7.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/package.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-base64/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ohmy/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ohmy/ohmy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ohmy/ohmy.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ohmy/ohmy.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ohmy/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/other-inner-inner-inner/index.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/other-inner-inner-inner/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/other-inner-inner-inner/other-inner-inner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/other-inner-inner-inner/other-inner-inner.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/other-inner-inner-inner/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/other-inner-inner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/other-inner-inner.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/other-inner-inner.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner-inner/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/other-inner.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other-inner/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/other.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/test/copyMe.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/replaceMe.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/replacedMe.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/fnActualFile.js" afterPath="$PROJECT_DIR$/utils/fnActualFile.js" />
+      <change beforePath="$PROJECT_DIR$/vue-sass" afterPath="$PROJECT_DIR$/vue-sass" />
+      <change beforePath="$PROJECT_DIR$/zhouyu/.stable/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zhouyu/.stable/template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zhouyu/zhouyu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zhouyu/zhouyu.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zhouyu/zhouyu.vue" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,128 +95,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8298231">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-          <file leaf-file-name="vue-sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vue-sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="560">
-                  <caret line="116" column="78" lean-forward="false" selection-start-line="116" selection-start-column="78" selection-end-line="116" selection-end-column="78" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="good.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/good/good.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ohmy.vue" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ohmy/ohmy.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ohmy.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ohmy/ohmy.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ohmy.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ohmy/ohmy.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ohmy/index.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="template.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ohmy/template.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="good.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/good/good.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="fnActualFile.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/utils/fnActualFile.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="fnActualFile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/fnActualFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue-sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,6 +135,14 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>the while block replaceStr function</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,12 +160,13 @@
         <option value="$PROJECT_DIR$/template.html" />
         <option value="$PROJECT_DIR$/componentName.js" />
         <option value="$PROJECT_DIR$/componentName.vue" />
-        <option value="$PROJECT_DIR$/utils/fnActualFile.js" />
         <option value="$PROJECT_DIR$/src/.stable/index.scss" />
         <option value="$PROJECT_DIR$/src/.stable/template.html" />
         <option value="$PROJECT_DIR$/src/component-name.sass" />
         <option value="$PROJECT_DIR$/well/well.js" />
+        <option value="$PROJECT_DIR$/utils/fnActualFile.js" />
         <option value="$PROJECT_DIR$/vue-sass" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -191,6 +192,7 @@
     <option name="width" value="679" />
     <option name="height" value="714" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -218,61 +220,17 @@
             <path>
               <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="good" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="ni-hao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="ni-hao" type="462c0819:PsiDirectoryNode" />
-              <item name=".stable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="niHao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="niHao" type="462c0819:PsiDirectoryNode" />
-              <item name=".stable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="ohmy" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name=".stable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="zhouyu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-sass-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-sass-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="zhouyu" type="462c0819:PsiDirectoryNode" />
-              <item name=".stable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,24 +294,24 @@
       <workItem from="1509879902413" duration="879000" />
       <workItem from="1509881322130" duration="5901000" />
       <workItem from="1509890116697" duration="1210000" />
-      <workItem from="1509927316376" duration="26211000" />
+      <workItem from="1509927316376" duration="27410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42152000" />
+    <option name="totallyTimeSpent" value="43351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-5" width="1366" height="773" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28656274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24498886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33125973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5750751" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45195195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -375,139 +333,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="14">
-            <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/copyMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/replaceMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/copy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/replacedMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/fnActualFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuliang/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuliang/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuliang/yuliang.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuliang/yuliang.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.stable/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component-name.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/componentName.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/componentName.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -536,9 +361,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -710,14 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="116" column="78" lean-forward="false" selection-start-line="116" selection-start-column="78" selection-end-line="116" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -742,10 +557,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
+    <entry file="file://$PROJECT_DIR$/ohmy/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ohmy/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -770,13 +593,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ohmy/index.scss">
+    <entry file="file://$PROJECT_DIR$/ok/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -784,10 +605,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ohmy/template.html">
+    <entry file="file://$PROJECT_DIR$/ok/ok.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ok/ok.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ok/ok.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ok/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/componentName.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okk/okk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okk/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okk/okk.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okk/okk.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okk/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component-name.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/componentName.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fnActualFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding />
         </state>
       </provider>

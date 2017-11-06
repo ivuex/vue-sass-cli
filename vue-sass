@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
+const path = require('path');
 const fnActualFile = require('./utils/fnActualFile')
 const Base64 = require('js-base64').Base64;
 const passInName = process.argv[2];
@@ -86,7 +87,8 @@ function computeNames() {
 }
 const names = computeNames();
 
-const srcDirectory = './src';
+// const srcDirectory = './src';
+const srcDirectory = path.resolve('vue-sass.d');
 const distDirectory = names.passInName;
 const stableDirBasename = '.stable';
 const srcStableDirectory = srcDirectory + '/' + stableDirBasename;
