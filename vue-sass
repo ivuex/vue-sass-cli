@@ -1,0 +1,120 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const fnActualFile = require('./utils/fnActualFile')
+const Base64 = require('js-base64').Base64;
+const passInName = process.argv[2];
+
+// function Hash() {
+//
+// }
+const fnHashRule = function (s) {
+    /*
+    function fnHashRule, this function can be comstom free, gen comstom hash.
+    If not comstom, just passing in argument can also comstom hash.
+    Usage:  vue-sass name --hash-src=myhash
+     */
+
+    // return Base64.encodeURI(s);
+    // return Base64.encode(s);
+    return Base64.encode(s).substr(0, 5);
+};
+const htmlIdHashSrcArgu = process.argv[3] || '';
+const htmlIdHashReg = /^--hash-src=([-\w]+)$/;
+
+function checkhtmlIdHashSrcArgu() {
+    if(htmlIdHashReg.test(htmlIdHashSrcArgu)){
+        console.error('指定hash只能用以下格式: “--hash-src=hashSrc”, 等号后必须是字母，数字，下划线或者短横线.');
+    }
+}
+checkhtmlIdHashSrcArgu();
+
+//below line output is for UI, in order to fetch good feeling.
+console.log('vue-sass-cli is creating the directory structure for static-html-sub-compile.');
+
+function checkPassInName() {
+    if (/^(?:[-_\.0-9]|[-_\.0-9])$/.test(passInName)) {
+        console.error('项目名不能以“－”或“_”或“.”结尾, 请修改.');
+    }
+    if (/[-_][-_]/.test(passInName)) {
+        console.error('项目名不能包含连续的“－” 或/和 “_”,　请修改.');
+    }
+    if (!/[\w\-\.]+/.test(passInName)) {
+        console.error('项目名不能包含连续的只能由大小写字母、数字、“－”、“_”组成,　请修改.');
+    }
+    if (/-/.test(passInName) && /[A-Z]/.test(passInName)) {
+        console.error('项目名不能同时包含“－”和大写字母,　请修改.');
+    }
+    if (/[\u4e00-\u9fa5]/.test(passInName)) {
+        console.error('项目名不能包含的中文字符,　请修改.')
+    }
+}
+checkPassInName();
+
+function computeNames() {
+    let hyphenName = '';
+    let pascalCaseName = '';
+    let camelCaseName = '';
+    let htmlIdHash = '';
+    if (/-/.test(passInName)) {
+        hyphenName = passInName;
+        tmpCamelCase = passInName.replace(/-([a-z])/g, function () {
+            return arguments[1].toUpperCase();
+        });
+    } else {
+        hyphenName = passInName.replace(/([A-Z])/g, function () {
+            return '-' + arguments[1].toLowerCase();
+        });
+        tmpCamelCase = passInName;
+    }
+    pascalCaseName = tmpCamelCase.replace(/^([a-zA-Z])/, function () {
+        return arguments[1].toUpperCase()
+    });
+    camelCaseName = tmpCamelCase.replace(/^([a-zA-Z])/, function () {
+        return arguments[1].toLowerCase()
+    });
+    htmlIdHash = htmlIdHashSrcArgu.replace(/--hash-src=([-\w]+)/, function () {
+        return '--' + fnHashRule(arguments[1]);
+    });
+    return {
+        passInName,
+        hyphenName,
+        pascalCaseName,
+        camelCaseName,
+        htmlIdHash,
+    }
+}
+const names = computeNames();
+
+const srcDirectory = './src';
+const distDirectory = names.passInName;
+const stableDirBasename = '.stable';
+const srcStableDirectory = srcDirectory + '/' + stableDirBasename;
+const distStableDirectory = distDirectory + '/' + stableDirBasename;
+
+function fnGenTaskObj() {
+    const replaceStrPairsObj = {
+        'componentName': names.camelCaseName,
+        'component-name': names.hyphenName,
+        '--hash': names.htmlIdHash,
+    };
+    const fsActionObj = {
+        createDirSync(newDirPath) {
+            fs.mkdirSync(newDirPath);
+        },
+        genActualFile(srcPath, distinationPath, replaceStrPairsObj) {
+            fnActualFile(...arguments);
+        }
+    };
+    fsActionObj.createDirSync(names.passInName);
+    fsActionObj.genActualFile(`${srcDirectory}/componentName.js`, `${distDirectory}/${names.camelCaseName}.js`, replaceStrPairsObj);
+    fsActionObj.genActualFile(`${srcDirectory}/componentName.vue`, `${distDirectory}/${names.camelCaseName}.vue`, replaceStrPairsObj);
+    fsActionObj.genActualFile(`${srcDirectory}/component-name.sass`, `${distDirectory}/${names.camelCaseName}.sass`, replaceStrPairsObj);
+    // fsActionObj.createDirSync(`${distStableDirectory}`);
+    // fsActionObj.genActualFile(`${srcStableDirectory}/index.scss`, `${distStableDirectory}/index.scss`, replaceStrPairsObj);
+    // fsActionObj.genActualFile(`${srcStableDirectory}/template.html`, `${distStableDirectory}/template.html`, replaceStrPairsObj);
+    fsActionObj.genActualFile(`${srcDirectory}/index.scss`, `${distDirectory}/index.scss`, replaceStrPairsObj);
+    fsActionObj.genActualFile(`${srcDirectory}/template.html`, `${distDirectory}/template.html`, replaceStrPairsObj);
+}
+
+fnGenTaskObj();

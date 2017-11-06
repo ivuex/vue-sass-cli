@@ -1,0 +1,10 @@
+{
+  "name": "vue-sass-cli",
+  "version": "0.0.1",
+  "bin": {
+    "vue-sass": "vue-sass"
+  },
+  "dependencies": {
+    "js-base64": "^2.3.2"
+  }
+}

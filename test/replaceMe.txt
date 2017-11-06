@@ -1,0 +1,3 @@
+Replace my sub string,
+and copy to another file,
+just use node, please.
