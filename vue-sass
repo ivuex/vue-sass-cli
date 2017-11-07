@@ -2,8 +2,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const fnActualFile = require('./utils/fnActualFile')
 const Base64 = require('js-base64').Base64;
+
+const fnActualFile = require('./utils/fnActualFile')
+
 const passInName = process.argv[2];
 
 // function Hash() {
@@ -24,10 +26,11 @@ const htmlIdHashSrcArgu = process.argv[3] || '';
 const htmlIdHashReg = /^--hash-src=([-\w]+)$/;
 
 function checkhtmlIdHashSrcArgu() {
-    if(htmlIdHashReg.test(htmlIdHashSrcArgu)){
+    if (htmlIdHashReg.test(htmlIdHashSrcArgu)) {
         console.error('指定hash只能用以下格式: “--hash-src=hashSrc”, 等号后必须是字母，数字，下划线或者短横线.');
     }
 }
+
 checkhtmlIdHashSrcArgu();
 
 //below line output is for UI, in order to fetch good feeling.
@@ -50,6 +53,7 @@ function checkPassInName() {
         console.error('项目名不能包含的中文字符,　请修改.')
     }
 }
+
 checkPassInName();
 
 function computeNames() {
@@ -85,14 +89,24 @@ function computeNames() {
         htmlIdHash,
     }
 }
+
 const names = computeNames();
 
+const srcDirectory = './' + 'vue-sass.d';
+console.error(srcDirectory);
 // const srcDirectory = './src';
-const srcDirectory = path.resolve('vue-sass.d');
-const distDirectory = names.passInName;
+const distDirectory = './' + names.passInName;
 const stableDirBasename = '.stable';
 const srcStableDirectory = srcDirectory + '/' + stableDirBasename;
 const distStableDirectory = distDirectory + '/' + stableDirBasename;
+
+const template = {
+    sass: require(srcDirectory + '/component-name.sass.js'),
+    vue: require(srcDirectory + '/componentName.vue.js'),
+    js: require(srcDirectory + '/componentName.js.js'),
+    html: require(srcStableDirectory + '/template.html.js'),
+    scss: require(srcStableDirectory + '/index.scss.js'),
+};
 
 function fnGenTaskObj() {
     const replaceStrPairsObj = {
@@ -102,21 +116,39 @@ function fnGenTaskObj() {
     };
     const fsActionObj = {
         createDirSync(newDirPath) {
-            fs.mkdirSync(newDirPath);
+            return new Promise((resolve, reject) => {
+                fs.mkdir(newDirPath, (err)=>{
+                    if(err) reject(err);
+                    resolve(newDirPath + ' directory has been created.');
+                });
+            });
         },
         genActualFile(srcPath, distinationPath, replaceStrPairsObj) {
-            fnActualFile(...arguments);
+            console.log('If you can see this line ,the fs.ActionOjb.genActualFile function executed.');
+            console.log(arguments);
+            console.log('above is the arguments in the fs.ActionOjb.genActualFile function.');
+            // return new Promise((resolve, reject) => {
+                fnActualFile(...arguments)();
+            // })
         }
     };
-    fsActionObj.createDirSync(names.passInName);
-    fsActionObj.genActualFile(`${srcDirectory}/componentName.js`, `${distDirectory}/${names.camelCaseName}.js`, replaceStrPairsObj);
-    fsActionObj.genActualFile(`${srcDirectory}/componentName.vue`, `${distDirectory}/${names.camelCaseName}.vue`, replaceStrPairsObj);
-    fsActionObj.genActualFile(`${srcDirectory}/component-name.sass`, `${distDirectory}/${names.camelCaseName}.sass`, replaceStrPairsObj);
-    // fsActionObj.createDirSync(`${distStableDirectory}`);
-    // fsActionObj.genActualFile(`${srcStableDirectory}/index.scss`, `${distStableDirectory}/index.scss`, replaceStrPairsObj);
-    // fsActionObj.genActualFile(`${srcStableDirectory}/template.html`, `${distStableDirectory}/template.html`, replaceStrPairsObj);
-    fsActionObj.genActualFile(`${srcDirectory}/index.scss`, `${distDirectory}/index.scss`, replaceStrPairsObj);
-    fsActionObj.genActualFile(`${srcDirectory}/template.html`, `${distDirectory}/template.html`, replaceStrPairsObj);
+    fsActionObj.createDirSync(names.passInName).then(function (msg) {
+        console.log(msg);
+        console.log('If you can see this line ,the callback function executed begain at 129 line executed.');
+            fsActionObj.genActualFile(template['js'], `${distDirectory}/${names.camelCaseName}.js`, replaceStrPairsObj);
+            fsActionObj.genActualFile(template['vue'], `${distDirectory}/${names.camelCaseName}.vue`, replaceStrPairsObj);
+            fsActionObj.genActualFile(template['sass'], `${distDirectory}/${names.camelCaseName}.sass`, replaceStrPairsObj);
+        fsActionObj.createDirSync(distStableDirectory).then(function (msg) {
+                fsActionObj.genActualFile(template['scss'], `${distStableDirectory}/index.scss`, replaceStrPairsObj);
+                fsActionObj.genActualFile(template['html'], `${distStableDirectory}/template.html`, replaceStrPairsObj);
+                // fsActionObj.genActualFile(template['scss'], `${distDirectory}//index.scss`, replaceStrPairsObj),
+                // fsActionObj.genActualFile(template['html'], `${distDirectory}/template.html`, replaceStrPairsObj),
+        })
+    }).then(function () {
+        console.log('Done!');
+    }).catch(err=>{
+        console.log(err);
+    });
 }
 
 fnGenTaskObj();

@@ -11,10 +11,10 @@ vue-sass-cli 脚手架
 
 ## component-name
 
-###  componentName.js
+###  componentName.js.js
     
-> componentName.js is the render js file in dirname webstorm entry;   
-> componentName.js will generate a single html with it's own asserts directory in dist folder(configured as default output directory by default.)
+> componentName.js.js is the render js file in dirname webstorm entry;   
+> componentName.js.js will generate a single html with it's own asserts directory in dist folder(configured as default output directory by default.)
         
 ### component-name.scss    
     

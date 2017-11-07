@@ -1,4 +1,4 @@
-<template>
+module.exports = `<template>
     <div id="component-name"></div>
 </template>
 
@@ -11,3 +11,4 @@
 <style scoped>
 
 </style>
+`;
