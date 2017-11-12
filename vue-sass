@@ -6,20 +6,10 @@ const Base64 = require('js-base64').Base64;
 
 const fnActualFile = require('./utils/fnActualFile')
 
-const passInName = process.argv[2];
+const passInName = process.argv.slice(-1)[0];
+// console.log(Object.prototype.toString.call(process.argv));
 
-// function Hash() {
-//
-// }
 const fnHashRule = function (s) {
-    /*
-    function fnHashRule, this function can be comstom free, gen comstom hash.
-    If not comstom, just passing in argument can also comstom hash.
-    Usage:  vue-sass name --hash-src=myhash
-     */
-
-    // return Base64.encodeURI(s);
-    // return Base64.encode(s);
     return Base64.encode(s).substr(0, 5);
 };
 const htmlIdHashSrcArgu = process.argv[3] || '';
@@ -33,7 +23,6 @@ function checkhtmlIdHashSrcArgu() {
 
 checkhtmlIdHashSrcArgu();
 
-//below line output is for UI, in order to fetch good feeling.
 console.log('vue-sass-cli is creating the directory structure for static-html-sub-compile.');
 
 function checkPassInName() {
@@ -92,9 +81,20 @@ function computeNames() {
 
 const names = computeNames();
 
-const srcDirectory = './' + 'vue-sass.d';
-console.error(srcDirectory);
-// const srcDirectory = './src';
+const argv = require('yargs').argv;
+let srcDirectory = argv.template || 'template.d';
+// console.log(srcDirectory);
+// console.log('above is the srcDirectory, is it right?');
+const validTemplates = require('./config.js').templates;
+// console.log(validTemplates);
+// console.log('above is the validTemplates, is it right?');
+if(validTemplates.indexOf(srcDirectory) === -1){
+    const msg = `Only these template are avlid: ${validTemplates.join(',\n')}.`;
+    console.log(msg);
+    throw 'But other template was specialed: ' + srcDirectory;
+}
+srcDirectory = './' + srcDirectory;
+console.log(`This template will be used: ${path.resolve(srcDirectory)}.`);
 const distDirectory = './' + names.passInName;
 const stableDirBasename = '.stable';
 const srcStableDirectory = srcDirectory + '/' + stableDirBasename;
@@ -124,28 +124,19 @@ function fnGenTaskObj() {
             });
         },
         genActualFile(srcPath, distinationPath, replaceStrPairsObj) {
-            console.log('If you can see this line ,the fs.ActionOjb.genActualFile function executed.');
-            console.log(arguments);
-            console.log('above is the arguments in the fs.ActionOjb.genActualFile function.');
-            // return new Promise((resolve, reject) => {
-                fnActualFile(...arguments)();
-            // })
+            fnActualFile(...arguments)();
         }
     };
     fsActionObj.createDirSync(names.passInName).then(function (msg) {
-        console.log(msg);
-        console.log('If you can see this line ,the callback function executed begain at 129 line executed.');
             fsActionObj.genActualFile(template['js'], `${distDirectory}/${names.camelCaseName}.js`, replaceStrPairsObj);
             fsActionObj.genActualFile(template['vue'], `${distDirectory}/${names.camelCaseName}.vue`, replaceStrPairsObj);
             fsActionObj.genActualFile(template['sass'], `${distDirectory}/${names.camelCaseName}.sass`, replaceStrPairsObj);
-        fsActionObj.createDirSync(distStableDirectory).then(function (msg) {
-                fsActionObj.genActualFile(template['scss'], `${distStableDirectory}/index.scss`, replaceStrPairsObj);
-                fsActionObj.genActualFile(template['html'], `${distStableDirectory}/template.html`, replaceStrPairsObj);
-                // fsActionObj.genActualFile(template['scss'], `${distDirectory}//index.scss`, replaceStrPairsObj),
-                // fsActionObj.genActualFile(template['html'], `${distDirectory}/template.html`, replaceStrPairsObj),
+            fsActionObj.createDirSync(distStableDirectory).then(function (msg) {
+            fsActionObj.genActualFile(template['scss'], `${distStableDirectory}/index.scss`, replaceStrPairsObj);
+            fsActionObj.genActualFile(template['html'], `${distStableDirectory}/template.html`, replaceStrPairsObj);
         })
     }).then(function () {
-        console.log('Done!');
+        console.log(`Done! ${distDirectory} was generated!`);
     }).catch(err=>{
         console.log(err);
     });
