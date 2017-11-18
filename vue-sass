@@ -93,8 +93,9 @@ if(validTemplates.indexOf(srcDirectory) === -1){
     console.log(msg);
     throw 'But other template was specialed: ' + srcDirectory;
 }
+//console.log(`This template will be used: ${path.resolve(srcDirectory)}.`);
+console.log(`This template will be used: ${__dirname + '/' + srcDirectory}.`);
 srcDirectory = './' + srcDirectory;
-console.log(`This template will be used: ${path.resolve(srcDirectory)}.`);
 const distDirectory = './' + names.passInName;
 const stableDirBasename = '.stable';
 const srcStableDirectory = srcDirectory + '/' + stableDirBasename;
