@@ -1,5 +1,5 @@
 module.exports = `<template>
-    <div id="component-name"></div>
+    <div class="component-name"></div>
 </template>
 
 <script>
